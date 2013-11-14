@@ -14,10 +14,8 @@
 
 \LoadClass[a4paper]{article}
 
-\RequirePackage[T1]{fontenc}        % används för att få svensk avstavning
 \RequirePackage[swedish]{babel}     
-\RequirePackage[latin1]{inputenc}   % och å, ä ,ö
-
+\RequirePackage[utf8]{inputenc}
 
 \RequirePackage{latexsym}
 \RequirePackage{fkm}
