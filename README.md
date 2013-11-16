@@ -7,23 +7,23 @@
 
 0. skapa .dvi-fil
 
-    $ latex filnamn.tex
+        $ latex filnamn.tex
 
     *OBS!* Vill man inte sitta och göra alla steg 4-6 kan man köra Python-scriptet sangblad.py Då får man ut en färdig pdf!
 
-    $ python sangblad.py MittSangblad.dvi
+        $ python sangblad.py MittSangblad.dvi
 
 0. skapa .ps-fil
 
-    $ dvips -o filnamn.ps filnamn.dvi
+        $ dvips -o filnamn.ps filnamn.dvi
 
 0. sortera om sidorna
 
-    $ psbook filnamn.ps > bokfil.ps
+        $ psbook filnamn.ps > bokfil.ps
 
 0. montera på papper
 
-    $ psnup -W11.5cm -H29.7cm -2 -pa4 bokfil.ps > filforutskrift.ps
+        $ psnup -W11.5cm -H29.7cm -2 -pa4 bokfil.ps > filforutskrift.ps
 
 0. Skriv ut på dubbelsidigt A4 papper och vi ihop
 
